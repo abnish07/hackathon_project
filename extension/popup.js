@@ -13,33 +13,10 @@ chrome.storage.sync.get(["data"], function(result) {
   if(result.data){
     
     const keys = Object.values(result.data)
-    
     websites = keys
-    // alert( websites)
-    for(let i=0; i<websites.length; i++){
-      console.log(websites[i])
-      // alert(typeof websites[i])
-    }
   }
 });
 
-// chrome.tabs.executeScript(null, {}, (tab)=>{
-//   alert(tab)
-// })
-
-// website urls
-// chrome.tabs.getSelected(null, (tab)=>{
-//   console.log(tab)
-//   alert(tab.url)
-// })
-
-// chrome.tabs.query({active: true, currentWindow: true}, (tabs)=>{
-//   var currTab = tabs[0]
-//   if (currTab) { // Sanity check
-//     /* do stuff */
-//     alert(currTab)
-//   }
-// });
 
 
 
@@ -83,6 +60,8 @@ btn.addEventListener('click', (event)=>{
  
   var p = document.createElement('p')
   p.innerHTML = text
+  p.setAttribute("class", "card")
+  p.setAttribute("style", "margin: 5px, padding: 10px, font-size: 12px")
 
   var icon = document.createElement('i')
   icon.setAttribute('class', "fas fa-trash-alt")

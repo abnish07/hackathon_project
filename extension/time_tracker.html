@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Time Tracker </title>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "popup.css" />
 </head>
 <body>
-    <div>
-        <h1>Hello</h1>
+
+    <div style="text-align: center; margin: auto auto;">
+        <h2>Your Overally Wastage time on website</h2>
+        <h3 style="text-align: center;" class="totalTime bigBox" id="totalTimeCount"></h3>
+        
     </div>
+    </div>
+
+    <div class="matrixCanvas">
+        <div>
+        <h3 style="margin: 10px 0 10px 80px">Your Today Spent Time</h3>
+        <div class="bigBox timeBox" id="todayBox"></div></div>
+
+        <div>
+        <h3 style="margin: 10px 0 10px 80px">Your Weekly Spent Time</h3>
+        <div class="bigBox timeBox" id="weeklyBox"></div></div>
+
+            <div>
+        <h3 style="margin: 10px 0 10px 80px">Your Monthly Spent Time </h3>
+        <div class="bigBox timeBox" id="monthlyBox"></div></div>
+
+                <div>
+        <h3 style="margin: 10px 0 10px 80px">Your Yearly Spent Time </h3>
+        <div class="bigBox timeBox" id="yearlyBox"></div></div>
+       
+    </div>
+
 </body>
+<script src="timer.js"></script>
 </html>

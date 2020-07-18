@@ -7,3 +7,4 @@ alert("content file")
 //     console.log(tabs[0].url);
 //     alert(tabs[0].url)
 //   });
+
