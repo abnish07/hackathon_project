@@ -24,16 +24,30 @@
             line-height: 200px;
             font-size: 50px;
             background-color:rgb(231, 226, 226);
-            border-radius: 50%;
+            border-radius: 20px;
             margin: 20px;
             box-shadow:  -4px -4px 12px rgb(255,255,255,0.7),
                        4px 4px 12px rgb(0,0,0,0.2);
         }
-       
-        h1{
-            position: absolute;
-            top: 50px;
-            left: 30%;
+        .main:hover{
+            box-shadow: inset -4px -4px 8px rgb(255,255,255,0.8),
+                       inset 4px 4px 12px rgb(0,0,0,0.4);
+        }
+        .main2{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            line-height: 200px;
+            font-size: 50px;
+            background-color:rgb(231, 226, 226);
+            border-radius: 50%;
+            margin: 20px;
+            box-shadow:  -4px -4px 12px rgb(255,255,255,0.7),
+                       4px 4px 12px rgb(0,0,0,0.2);
         }
         .main1{
             height: 200px;
@@ -47,17 +61,18 @@
             box-shadow:  -4px -4px 12px rgb(255,255,255,0.7),
                        4px 4px 12px rgb(0,0,0,0.4);
         }
-        .main2{
-            height: 200px;
-            width: 200px;
-            text-align: center;
-            line-height: 200px;
+        .main2:after{
+            content: "20";
+            position: absolute;
+            height: 160px;
+            width: 160px;
+            line-height: 160px;
             font-size: 50px;
             background-color:rgb(231, 226, 226);
             border-radius: 50%;
-            margin: 20px;
-            box-shadow:  -4px -4px 12px rgb(255,255,255,0.7),
-                       4px 4px 12px rgb(0,0,0,0.4);
+            /* margin: 20px; */
+            box-shadow: inset -4px -4px 12px rgb(255,255,255,0.7),
+                    inset 4px 4px 12px rgb(0,0,0,0.5);
         }
         @media (max-width: 640px){
           .container{
@@ -68,12 +83,17 @@
 
 </head>
 <body>
-    <h1>Hey! you have wasted your total time</h1>
-    <div class="container" id="totalTimeCount">
-        <div class="main"></div>
-        <div class="main1"></div>
-        <div class="main2"></div>
+    
+  
+</head>
+<body>
+    <div class="container">
+        <div class="main">20</div>
+        <div class="main1">20</div>
+        <div class="main2">20</div>
     </div>
 </body>
-<script src="timer.js"></script>
+
+
+</body>
 </html>

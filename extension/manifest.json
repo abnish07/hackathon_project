@@ -1,7 +1,7 @@
 {
   "name": "Time Waste Tracker",
   "version": "0.1",
-  "description": "Time Waste Tracker",
+  "description": "A Tracket to track your waste time on your listing websites.",
   "manifest_version": 2,
   "permissions": [ "storage", "notifications", "tabs", "<all_urls>"], 
   "browser_action": {
