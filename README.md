@@ -2,7 +2,7 @@
 
 
   
-![alt text](https://i.imgur.com/0V7cqLU.png "Landing Page")
+![alt text](https://imgur.com/QZP8QrD "Front Page")
 
 
 ## Table of Contents
