@@ -1,4 +1,6 @@
-Welcome to the hackathon_project-chrome_extension wiki!
+
+
+
 ![Time Waste Tracker](https://i.imgur.com/GuBTlHd.png)
 
 
