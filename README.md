@@ -1,81 +1,27 @@
+Welcome to the hackathon_project-chrome_extension wiki!
+![Time Waste Tracker](https://i.imgur.com/GuBTlHd.png)
 
 
+## Time Waster Tracker (A Tracker to track your waste time on your listing websites.)
 
-  
+## Table of content
+* About the project
+* Getting started and Functionality
+* Technology used
 
-[Imgur](https://imgur.com/QZP8QrD)
+## About the Project
 
-## Table of Contents
+ Add your website on the list which you want to track. And end of the day it will give the total time spending on these websites and analyze it at the end of the day. You can find the total spending time on the website which you have listed to track. 
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+### These are the following procedure to track your time:-
+1. Open your extension
+2. Add websites which you want to track
+3. open the website for some times which you want to add 
+4. Then close that website
+5. if you want to show the total time spent on the website, just click "Show Tracker"
+6. It will show total time spending on the website
 
-
-
-
-## About The Project
-
-
-We modelled our hotel booking website after onefinestay.com, taking inspiration in terms of design and features, while also adding some extra functionality like Payment Gateways and Google Sign-in. 
- Key Features include:
-  - Users can login normally(done via JWT Tokens) or can login through Google Sign-in.
-  - Users have a wide array of options via filters using which they can customize the hotels shown to them.
-  - Users can see the location of a hotel(done via Google Maps Integration).
-  - Users will be recommended Similar Hotels based on Price and Location.
-  - Users will be able to know on which Dates a particular hotel is booked/unavailable. 
-  - Users will be able to pay for their booking and get confirmation mail for the same.
-
-<br/><br/>
-
-![alt text](https://i.imgur.com/JUXl5SS.png "User's Needs")
-<br/>
-![alt text](https://i.imgur.com/ZXP8Fv0.png "Solutions I")
-![alt text](https://i.imgur.com/pgi9Og7.png "Solutions II")
-
-
-
-### Built With
-- Frontend
-    - [React](https://reactjs.org/)
-    - [Redux](https://redux.js.org/)
-    - [Bootstrap](https://getbootstrap.com/)
-- Backend
-    - [Python](https://www.python.org/)
-    - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
-    - [MySQL](https://www.mysql.com/)
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-* npm
-```sh
-npm install npm@latest -g
-```
-* pip
-```sh
-sudo apt install python-pip
-sudo pip install virtualenv 
-```
-
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/ray2294/onefinestay.git
-```
-2. For Frontend, go to src/client and then install NPM packages
-```sh
-npm install
-```
-
-3. For Backend,create virtual environment, go to src/server and then install pip packages from requirements.txt
-```
-virtualenv venv
-pip install -r requirements.txt
-```
+## Technology Used
+1. HTML
+2. Java Script
+3. Bootstrap
