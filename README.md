@@ -2,8 +2,8 @@
 
 
   
-![alt text](https://imgur.com/QZP8QrD "Front Page")
 
+[Imgur](https://imgur.com/QZP8QrD)
 
 ## Table of Contents
 
