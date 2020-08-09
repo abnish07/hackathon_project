@@ -1,6 +1,6 @@
 
 
-             ![Time Waste Tracker](https://i.imgur.com/GuBTlHd.png)
+![Time Waste Tracker](https://i.imgur.com/GuBTlHd.png)
 
 
 ## Time Waster Tracker (A Tracker to track your waste time on your listing websites.)
