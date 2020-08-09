@@ -6,15 +6,17 @@
 ## Time Waster Tracker (A Tracker to track your waste time on your listing websites.)
 
 ## Table of content
-* About the project
-* Getting started and Functionality
-* Technology used
+* [About the Project](#about-the-project)
+* [Getting started and Functionality](#getting-started-and-functionality)
+* [Technology used](#technology-used)
 
 ## About the Project
 
  Add your website on the list which you want to track. And end of the day it will give the total time spending on these websites and analyze it at the end of the day. You can find the total spending time on the website which you have listed to track. 
 
-### These are the following procedure to track your time:-
+### Getting Started and Functionality
+
+###These are the following procedure to track your time:-
 1. Open your extension
 2. Add websites which you want to track
 3. open the website for some times which you want to add 
